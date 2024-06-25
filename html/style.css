@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(231, 231, 231);
+    background-color: rgb(49, 175, 133);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 19px;
+    color: aquamarine;
+}
+
+/* Aumentar la separación entre las columnas */
+.column-container {
+    display: flex;
+    gap: 40px; /* Aumentado el espacio entre columnas */
+}
+
+/* Estilo general para los contenedores */
+.c-tree, .c-two, .c-one, .c-four {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px; /* Ancho por defecto para c-two, c-one y c-four */
+}
+
+/* Hacer la columna de equipo más grande */
+.c-tree {
+    width: 300px; /* Aumentar el ancho de la columna .c-tree */
+}
+
+/* Estilo para los campos de entrada */
+.c-tree input, .c-two input, .c-one input, .c-four input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #b46a6a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Centrar y hacer más grande la casilla de Riesgo Є */
+.riesgo-label {
+    text-align: center; /* Centrar el texto del label */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.riesgo-input {
+    width: 70%; /* Hacer la casilla un poco más grande */
+    margin: 0 auto; /* Centrando la casilla */
+    display: block;
+}
+
+/* Estilo para el botón */
+.button-container {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#calcularBtn, #limpiarBtn {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(49, 175, 133);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#calcularBtn:hover, #limpiarBtn:hover {
+    background-color: #035835;
+}
+Explic
